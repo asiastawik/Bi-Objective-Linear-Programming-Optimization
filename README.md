@@ -1,5 +1,7 @@
 # Bi-Objective Linear Programming Optimization
 
+# LAB 6
+
 ## Project Overview
 
 This project focuses on solving a bi-objective linear programming problem using various optimization techniques in MATLAB. The objective is to identify Pareto optimal solutions through different methods, analyze the ideal and nadir points, and visualize the Pareto front.
@@ -70,3 +72,71 @@ The project aims to provide:
 ## Conclusion
 
 This project demonstrates the application of various optimization methods to solve a bi-objective linear programming problem, providing valuable insights into the trade-offs between conflicting objectives. Through the identification of Pareto optimal solutions and visualization of the Pareto front, the project highlights the importance of multi-objective optimization in decision-making processes.
+
+# LAB 7
+
+## Project Overview
+
+This project focuses on solving a bi-objective linear programming problem using MATLAB. The objective is to identify Pareto optimal solutions through different optimization techniques, providing insights into multi-objective decision-making.
+
+## Problem Description
+
+### Objective Functions
+
+The bi-objective linear programming problem is defined as follows:
+
+1. **Maximize**:  
+   \[ g_1 = 2x_1 - x_2 - 2 \]
+
+2. **Maximize**:  
+   \[ g_2 = x_2 \]
+
+## Objectives
+
+The project addresses the following questions:
+
+1. **Pareto Optimal Solution Identification**: 
+   - Utilize the weighted average method or the lexicographic method to find a Pareto optimal solution for the given bi-objective linear program.
+   
+2. **Modified Objective Functions**: 
+   - In a revised version of the problem, with new objective functions defined as \( g_1 = 2x_1 - x_2 - 2x_1 + 3x_2 + 4 \) and \( g_2 = x_1 x_2 + 1 \), identify a Pareto optimal solution.
+
+## Methodology
+
+### 1. Weighted Average or Lexicographic Method
+
+- **Weighted Average Method**: This method involves assigning weights to each objective function and solving the resulting single-objective linear program. By varying the weights, different Pareto optimal solutions can be derived.
+  
+- **Lexicographic Method**: This approach prioritizes one objective function over the other and solves the optimization problem iteratively. By analyzing all possible priority combinations, a comprehensive set of Pareto optimal solutions can be identified.
+
+### 2. Identification of Pareto Optimal Solutions
+
+The project examines both the original and modified objective functions to find Pareto optimal solutions. This involves:
+- Formulating the optimization problems in MATLAB.
+- Solving the problems using appropriate optimization techniques.
+- Analyzing the results to identify solutions that meet the Pareto optimal criteria.
+
+## Implementation in MATLAB
+
+The model is implemented in MATLAB, utilizing its optimization toolbox to perform the following tasks:
+- Define the decision variables.
+- Set up the objective functions and constraints.
+- Solve the optimization problems using the chosen methods (weighted average, lexicographic).
+- Retrieve and analyze the solutions.
+
+## Expected Outcomes
+
+The project aims to deliver:
+- A set of Pareto optimal solutions for the original problem using the weighted average and lexicographic methods.
+- A new set of Pareto optimal solutions for the modified problem with different objective functions.
+
+## Future Enhancements
+
+- **Sensitivity Analysis**: Explore how changes in coefficients of the objective functions and constraints affect the Pareto optimal solutions.
+- **Multi-Objective Expansion**: Extend the problem to include additional objectives and apply more complex multi-objective optimization techniques.
+- **Visualization**: Implement graphical representations of the Pareto front for a clearer understanding of the trade-offs between the objectives.
+
+## Conclusion
+
+This project demonstrates the application of various optimization methods to solve a bi-objective linear programming problem, providing insights into the complexities of multi-objective decision-making. By identifying Pareto optimal solutions, the project highlights the significance of optimization techniques in real-world applications.
+
